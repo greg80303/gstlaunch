@@ -3,7 +3,7 @@
 
 AC_PREREQ([2.68])
 AC_INIT([gstlaunch], [0.1], [greg80303@yahoo.com])
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([subdir-objects])
 AC_CONFIG_SRCDIR([src/gstlaunch.c])
 AC_CONFIG_HEADERS([config.h])
 
